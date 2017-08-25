@@ -1,0 +1,10 @@
+<p>You are in the landing.html page</p>
+<form ng-submit="go2db()">
+  <div class="form-group">
+    <label for="sometext">Give in Something:</label>
+    <input type="text" class="form-control" id="sometext" required>
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
+<br>
+<p ng-show="process">You are in the submit function in the Homecontroller now, this what you typed in the above text box: {{sometextinprocess}}</p>
